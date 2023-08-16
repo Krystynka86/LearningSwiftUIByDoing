@@ -11,6 +11,7 @@
 		6B29E5672A8D5250003A38C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E5662A8D5250003A38C2 /* ContentView.swift */; };
 		6B29E5692A8D5251003A38C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B29E5682A8D5251003A38C2 /* Assets.xcassets */; };
 		6B29E56C2A8D5251003A38C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B29E56B2A8D5251003A38C2 /* Preview Assets.xcassets */; };
+		6B29E5732A8D5821003A38C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6B29E5662A8D5250003A38C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B29E5682A8D5251003A38C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B29E56B2A8D5251003A38C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				6B29E5662A8D5250003A38C2 /* ContentView.swift */,
 				6B29E5682A8D5251003A38C2 /* Assets.xcassets */,
 				6B29E56A2A8D5251003A38C2 /* Preview Content */,
+				6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */,
 			);
 			path = LearningSwiftUIByDoing;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B29E5732A8D5821003A38C2 /* Launch Screen.storyboard in Resources */,
 				6B29E56C2A8D5251003A38C2 /* Preview Assets.xcassets in Resources */,
 				6B29E5692A8D5251003A38C2 /* Assets.xcassets in Resources */,
 			);
