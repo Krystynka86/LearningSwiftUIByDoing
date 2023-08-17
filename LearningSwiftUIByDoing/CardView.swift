@@ -12,11 +12,16 @@ struct CardView: View {
     
     var card: Card
     
+    @State private var fadeIn: Bool = false
+    @State private var moveDownard: Bool = false
+    @State private var moveUpward: Bool = false
+    
     // MARK: - CARD
     
     var body: some View {
         ZStack {
             Image(card.imageName)
+                .opacity(fadeIn ? 1.0 : 0.0)
                 
             VStack {
                 Text(card.title)
@@ -29,10 +34,12 @@ struct CardView: View {
                     .foregroundColor(Color.white)
                     .italic()
             } //: VStack
-            .offset(y: -218)
+            .offset(y: moveDownard ? -218 : -300)
             
             Button(action: {
                 print("Button was tapped.")
+                
+                playSound(sound: "sound-chime", type: "mp3")
             }) {
                 HStack {
                     Text(card.callToAction.uppercased())
@@ -50,12 +57,21 @@ struct CardView: View {
                 .clipShape(Capsule())
                 .shadow(color: Color("ColorShadow"), radius: 6, x: 0, y: 3)
             } //: Button
-            .offset(y: 200)
+            .offset(y: moveUpward ? 210 : 300)
         } //: ZStack
         .frame(width: 335, height: 545)
         .background(LinearGradient(gradient: Gradient(colors: card.gradientColors), startPoint: .top, endPoint: .bottom))
         .cornerRadius(16)
         .shadow(radius: 8)
+        .onAppear() {
+            withAnimation(.linear(duration: 1.2)) {
+                self.fadeIn.toggle()
+            }
+            withAnimation(.linear(duration: 0.8)) {
+                self.moveDownard.toggle()
+                self.moveUpward.toggle()
+            }
+        }
     }
 }
 
