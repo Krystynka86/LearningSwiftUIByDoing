@@ -14,6 +14,7 @@
 		6B29E5732A8D5821003A38C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */; };
 		6B29E5752A8E6556003A38C2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E5742A8E6556003A38C2 /* CardView.swift */; };
 		6B29E5772A8E73A0003A38C2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E5762A8E73A0003A38C2 /* CardModel.swift */; };
+		6B29E5792A8E75EA003A38C2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E5782A8E75EA003A38C2 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6B29E5742A8E6556003A38C2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6B29E5762A8E73A0003A38C2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		6B29E5782A8E75EA003A38C2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				6B29E5722A8D5821003A38C2 /* Launch Screen.storyboard */,
 				6B29E5742A8E6556003A38C2 /* CardView.swift */,
 				6B29E5762A8E73A0003A38C2 /* CardModel.swift */,
+				6B29E5782A8E75EA003A38C2 /* CardData.swift */,
 			);
 			path = LearningSwiftUIByDoing;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B29E5792A8E75EA003A38C2 /* CardData.swift in Sources */,
 				6B29E5672A8D5250003A38C2 /* ContentView.swift in Sources */,
 				6B29E5772A8E73A0003A38C2 /* CardModel.swift in Sources */,
 				6B29E5752A8E6556003A38C2 /* CardView.swift in Sources */,
